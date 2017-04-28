@@ -3,6 +3,7 @@ html, body{
   background-color: #fff;
   font-size: 18px;
   font-weight: 100;
+  letter-spacing: 1px;
 }
 h1{
   font-size: 60px;
@@ -20,6 +21,11 @@ h2{
 }
 h3{
   font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+h4{
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 3px;
 }
@@ -70,10 +76,16 @@ p{
   border-color: transparent;
   color: #fff !important;
 }
+.navbar-default{
+  padding-left: 25%;
+}
 .jumbotron{
   background-color: #118DF0;
-  background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   padding: 0px;
   margin: 0px;
@@ -101,18 +113,71 @@ footer a{
   font-weight: 400;
 }
 
-
 /* login page */
 .menu{
   background-color: #EFEFEF;
-  text-align: left;
   height: 100vh;
+  padding: 50px 10px;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.login{
+  padding: 100px;
 }
 .content{
   height: 100vh;
   background-color: #fff;
-  padding: 200px 5px;
+  padding: 200px 20px;
   text-align: center;
-  background-image: url(../images/background2.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input[type=text], input[type=password]{
+  padding: 10px 20px;
+  width: 90%;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button{
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 5px 0;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.8;
+}
+.trandmark{
+  padding-top: 200px;
+  font-size: 12px;
+  font-weight: 300;
+}
+/* home page */
+hr{
+  border-top: 1px dashed #8c8b8b;
+}
+.menu a{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  margin: 5px 0;
+}
+.menu a:hover{
+  text-decoration: none;
+  display: block;
+  background-color: #444;
+  width: 100%;
+  padding: 10px 20px;
+  color: #fff;
 }
