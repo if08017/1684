@@ -1,9 +1,26 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-Bold.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-BoldItalic.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-Italic.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-Light.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-LightItalic.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-Regular.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-Semibold.ttf') format('trutype'),
+  src: url('../fonts/OpenSans-SemiboldItalic.ttf')format('trutype');
+  font-weight: normal;
+  font-style: normal;
+}
 html, body{
   color: #000;
   background-color: #fff;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
 }
 h1{
   font-size: 60px;
@@ -31,7 +48,6 @@ h4{
 }
 p{
   margin: 0px;
-  padding: 10px;
 }
 .container-fluid{
   padding: 0px;
@@ -44,7 +60,7 @@ p{
   background-color: black
 }
 .navbar-brand img{
-  max-width: 50px;
+  max-width: 45px;
 }
 .navbar {
   margin-bottom: 0;
@@ -109,6 +125,9 @@ p{
 }
 footer{
   background-color: #f6f6f6;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 30px;
 }
 footer a{
   color: #00B3AA;
@@ -120,11 +139,12 @@ footer a{
 
 /* login page */
 .menu{
-  background-color: #EFEFEF;
+  background-color: #118DF0;
   height: 100vh;
   padding: 50px 10px;
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .menu img{
   width: 30%;
@@ -133,24 +153,15 @@ footer a{
   padding: 100px;
 }
 .content{
-  align-items:center;
-  display:flex;
-  min-height:100%;
-
-}
-.inner {
-  position: relative;
-top: 50%;
-transform: perspective(1px) translateY(-50%);
-}
-.content2{
-
   background-color: #fff;
-  background: url(../images/background2.jpg) no-repeat center center fixed;
+  background: url(../images/background3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
+  padding: 200px 20px;
+  text-align: center
 }
 input[type=text], input[type=password]{
   padding: 10px 20px;
