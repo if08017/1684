@@ -84,7 +84,7 @@ p{
 }
 .jumbotron{
   background-color: #118DF0;
-  background: url(../images/background.jpg) no-repeat center center fixed;
+  background: url(../images/background.jpg) no-repeat center bottom fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,9 +94,11 @@ p{
   margin: 0px;
 }
 .landing{
-  padding: 200px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   text-align: center;
-  height: 100vh;
 }
 .landing h1{
   color: #fff;
@@ -131,10 +133,19 @@ footer a{
   padding: 100px;
 }
 .content{
-  height: 100vh;
+  align-items:center;
+  display:flex;
+  min-height:100%;
+
+}
+.inner {
+  position: relative;
+top: 50%;
+transform: perspective(1px) translateY(-50%);
+}
+.content2{
+
   background-color: #fff;
-  padding: 200px 20px;
-  text-align: center;
   background: url(../images/background2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
