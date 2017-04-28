@@ -1,0 +1,24 @@
+html, body{
+  color: #444;
+  background-color: #fff;
+}
+.navbar-brand img{
+  max-width: 60px;
+}
+.jumbotron{
+  background-color: #f4511e;
+  color: #fff;
+}
+footer{
+  background-color: #f6f6f6;
+}
+footer a{
+  color: #00B3AA;
+}
+.address{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.container-fluid{
+  padding: 5px;
+}
