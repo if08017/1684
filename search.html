@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="twitter:" content="">
+
   <title>Asetku</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -22,23 +22,26 @@
           <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="login.html">Asetqu</a></li>
-            <li><a href="padang.go.id">Padang.go.id</a></li>
-            <li><a href="kab.pesisir.go.id">Kab.Pesisir</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="home.html">Admin</a></li>
+            <li><a href="padang.go.id">Search</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <div class="jumbotron">
-    <div class="text-center landing">
-      <h1>Asetqu</h1>
-      <h3>Sistem Informasi Pengelolaan Aset</h3>
-      <p>
-        Sekretariat bagian Keuangan Setda Kab. Pesisir Selatan<br>
-        Jl. H. Agus Salim No. 1 Painan, Padang
-      </p>
+  <div class="search">
+    <div class="text-center">
+      <div class="custom-search-input">
+            <form class="input-group" action="index.html" method="post">
+              <input type="text" class="form-control input-lg" placeholder="Cari keyword yang Anda inginkan" />
+                <span class="input-group-btn">
+                <button class="btn btn-info btn-lg" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </span>
+            </form>
+      </div>
     </div>
   </div>
   <footer>

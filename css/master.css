@@ -163,7 +163,7 @@ footer a{
   padding: 200px 20px;
   text-align: center
 }
-input[type=text], input[type=password]{
+.menu input[type=text], .menu input[type=password]{
   padding: 10px 20px;
   width: 90%;
   margin: 8px 0px;
@@ -171,7 +171,7 @@ input[type=text], input[type=password]{
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-button{
+.menu button{
   background-color: #4CAF50;
   color: #fff;
   padding: 5px 0;
@@ -179,7 +179,7 @@ button{
   border: none;
   cursor: pointer;
 }
-button:hover{
+.menu button:hover{
   opacity: 0.8;
 }
 .trandmark{
@@ -207,4 +207,48 @@ hr{
   width: 100%;
   padding: 10px 20px;
   color: #fff;
+}
+
+/* search */
+.search{
+  background-color: #f9f9f9;
+  height: 100vh;
+  padding: 100px 200px;
+}
+.custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    text-align: center;
+}
+.custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+.custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+.custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+}
+.btn-info:hover{
+    color: #118DF0;
+    background-color: #fff;
+    border-color: #269abc;
+}
+.btn-info:active{
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: red;
+}
+.custom-search-input .glyphicon-search{
+    font-size: 23px;
 }
